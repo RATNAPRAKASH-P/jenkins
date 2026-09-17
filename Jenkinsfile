@@ -34,7 +34,7 @@ pipeline {
                 if not exist build mkdir build
 
                 copy index.html build\\
-                copy style.css build\\
+               // copy style.css build\\
                 '''
             }
         }
